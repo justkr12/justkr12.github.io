@@ -117,7 +117,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>🏛️ Greenville RP 서버 도로교통법</h1>
+        <h1>🏛️ GVKR 서버 도로교통법</h1>
         <p class="sub-description">📋 대한민국 도로교통법 준용</p>
 
         <hr>
