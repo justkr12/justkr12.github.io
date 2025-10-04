@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏛️ Greenville RP 서버 도로교통법</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+            border-top: 5px solid #28a745; /* 그린빌 테마 컬러 */
+        }
+        h1, h2, h3, h4 {
+            color: #212529;
+            margin-top: 1.5em;
+            margin-bottom: 0.8em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.3em;
+        }
+        h1 {
+            font-size: 2.2em;
+            text-align: center;
+            color: #28a745; /* 메인 제목 컬러 */
+            margin-bottom: 0.5em;
+            border-bottom: 2px solid #28a745;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8em;
+            color: #0056b3; /* 챕터 제목 컬러 */
+            border-bottom: 1px dashed #cce5ff;
+        }
+        h3 {
+            font-size: 1.5em;
+            color: #007bff;
+        }
+        h4 {
+            font-size: 1.2em;
+            color: #6c757d;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 1em;
+        }
+        ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+            margin-bottom: 1em;
+        }
+        li {
+            margin-bottom: 0.5em;
+        }
+        .section-header {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #495057;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            padding-left: 10px;
+            border-left: 4px solid #28a745;
+        }
+        .note {
+            background-color: #e9ecef;
+            border-left: 5px solid #007bff;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-size: 0.95em;
+        }
+        .penalty {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        .info {
+            font-size: 0.9em;
+            color: #6c757d;
+            text-align: right;
+            margin-top: 40px;
+            border-top: 1px solid #dee2e6;
+            padding-top: 15px;
+        }
+        .sub-description {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+            color: #555;
+            font-weight: bold;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏛️ Greenville RP 서버 도로교통법</h1>
+        <p class="sub-description">📋 대한민국 도로교통법 준용</p>
+
+        <hr>
+
+        <h2>제1장 총칙</h2>
+        <h3>제1조 (목적)</h3>
+        <p>이 법은 도로에서 일어나는 교통상의 모든 위험과 장해를 방지하고 제거하여 안전하고 원활한 교통을 확보함을 목적으로 한다.</p>
+
+        <h3>제2조 (정의)</h3>
+        <ul>
+            <li>"도로"란 서버 내 모든 차량 통행 가능 구역을 말한다</li>
+            <li>"차량"란 모든 운전 가능한 탈것을 말한다</li>
+            <li>"운전"이란 차량을 조종하여 이동시키는 행위를 말한다</li>
+        </ul>
+
+        <hr>
+        <hr>
+
+        <h2>제2장 교통신호 및 안전표지</h2>
+        <h3>제5조 (신호 또는 지시에 따를 의무)</h3>
+        <p><strong><span class="penalty">위반 시: 벌금 $600,000 / 벌점 15점</span></strong></p>
+        <ul>
+            <li>도로를 통행하는 보행자와 차량은 교통안전시설이 표시하는 신호 또는 지시를 따라야 한다</li>
+            <li>교통정리를 하는 경찰공무원의 신호 또는 지시를 따라야 한다</li>
+        </ul>
+
+        <hr>
+
+        <h2>제3장 운전자 및 사용자의 의무</h2>
+        <h3>제48조 (모든 운전자의 준수사항)</h3>
+
+        <h4>제1항 - 속도 위반</h4>
+        <p><strong>제한속도 위반 시 벌금 및 벌점</strong>:</p>
+        <ul>
+            <li>25mph 초과: <span class="penalty">벌금 $400,000 / 벌점 15점</span></li>
+            <li>40mph 초과: <span class="penalty">벌금 $800,000 / 벌점 30점</span></li>
+            <li>60mph 초과: <span class="penalty">벌금 $1,500,000 / 벌점 60점</span></li>
+            <li>80mph 초과: <span class="penalty">벌금 $2,500,000 / 벌점 100점</span></li>
+        </ul>
+
+        <h4>제2항 - 차간거리 미확보</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $400,000 / 벌점 10점</span></strong></p>
+        <p>앞차와의 안전거리를 확보하지 않은 경우</p>
+
+        <h4>제3항 - 끼어들기</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $600,000 / 벌점 10점</span></strong></p>
+        <p>정당한 사유 없이 진로를 갑자기 변경하여 다른 차량의 정상적인 통행을 방해한 경우</p>
+
+        <h4>제4항 - 추월 방법 위반</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $700,000 / 벌점 10점</span></strong></p>
+        <ul>
+            <li>앞차의 좌측으로 통행하지 않은 경우</li>
+            <li>추월 중인 다른 차량을 추월한 경우</li>
+        </ul>
+
+        <h4>제5항 - 중앙선 침범</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $1,000,000 / 벌점 30점</span></strong></p>
+        <p>중앙선을 침범하여 반대편 차선으로 운행한 경우</p>
+
+        <h4>제6항 - 보행자 보호 불이행</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $800,000 / 벌점 10점</span></strong></p>
+        <p>도로를 횡단하고 있는 보행자의 통행을 방해한 경우</p>
+
+        <!-- 이전 버전 제7항 - 어린이 보호구역 위반 항목은 삭제됨 -->
+
+        <h3>제49조 (모든 운전자의 준수사항 등)</h3>
+
+        <h4>제1항 제1호 - 신호 위반</h4>
+        <p><strong><span class="penalty">적색신호 위반: 벌금 $700,000 / 벌점 15점</span></strong><br>
+        <strong><span class="penalty">황색신호 위반: 벌금 $500,000 / 벌점 5점</span></strong></p>
+
+        <h4>제1항 제2호 - 통행 우선순위 위반</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $600,000 / 벌점 5점</span></strong></p>
+        <p>교차로 통행 시 우선순위를 위반한 경우</p>
+
+        <h4>제1항 제4호 - 정지선 위반</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $500,000 / 벌점 5점</span></strong></p>
+        <p>정지선을 초과하여 정지한 경우</p>
+
+        <h4>제1항 제7호 - 경음기 부당사용</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $400,000 / 벌점 5점</span></strong></p>
+        <p>위험을 방지하기 위한 경우가 아닌데도 경음기를 울린 경우</p>
+
+        <h4>제1항 제9호 - 전조등 미점등</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $400,000 / 벌점 5점</span></strong></p>
+        <p>야간이나 터널 등에서 전조등을 켜지 않은 경우</p>
+
+        <h4>제1항 제11호 - 일시정지 위반</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $600,000 / 벌점 15점</span></strong></p>
+        <p>일시정지 표지를 무시하고 통과한 경우</p>
+
+        <h3>제54조 (도로 외의 곳을 통행하는 차의 금지)</h3>
+        <p><strong><span class="penalty">위반 시: 벌금 $800,000 / 벌점 10점</span></strong></p>
+        <p>도로가 아닌 보도, 공원, 광장 등을 무단으로 통행한 경우</p>
+
+        <h3>제156조 (난폭운전 등)</h3>
+        <p><strong><span class="penalty">위반 시: 벌금 $2,500,000 / 벌점 40점</span></strong></p>
+        <p>다음 각 호의 행위 중 <strong>2가지 이상을 연속적으로 위반</strong>하여 다른 사람에게 위험을 발생하게 한 경우:</p>
+        <ul>
+            <li>신호 또는 지시 위반 행위</li>
+            <li>중앙선 침범 행위</li>
+            <li>제한속도 20mph 이상 초과</li>
+            <li>앞지르기 방법 위반</li>
+            <li>철길 건널목 통과 방법 위반</li>
+            <li>횡단·유턴·후진 금지 위반</li>
+        </ul>
+
+        <h3>제46조의3 (위험운전)</h3>
+        <p><strong><span class="penalty">위반 시: 벌금 $3,000,000 / 벌점 60점</span></strong></p>
+        <p>다음 각 호의 행위로 사람을 사상(死傷)에 이르게 하거나 위험을 발생시킨 경우:</p>
+        <ul>
+            <li>도로에서 진행하고 있는 자동차 등의 운전자에게 위협을 가하거나 급정거하게 하는 행위</li>
+            <li>도로를 횡단하거나 유턴하는 경우 진행하고 있는 다른 자동차 등의 정상적인 통행을 방해할 위험을 발생하게 하는 행위</li>
+            <li>고속도로 등에서 갓길 등 통행이 금지된 곳을 통행하거나 반대 방향으로 진행하는 행위</li>
+            <li>자동차의 운행이나 통행이 금지되는 보도나 차도와 보도가 구분된 도로의 보도를 침범하거나 횡단하는 행위</li>
+            <li>앞차의 운행을 방해할 목적으로 끼어들기를 하거나 앞차와의 안전거리를 확보하지 않고 따라 붙어 진행하는 행위</li>
+        </ul>
+
+        <h3>제5조의10 (보복운전 가중처벌)</h3>
+        <p><strong><span class="penalty">위반 시: 벌금 $3,000,000 / 벌점 80점</span></strong></p>
+        <p>다음 각 호의 행위를 보복 목적으로 한 경우:</p>
+        <ul>
+            <li>위협을 가하면서 진로를 변경하는 행위</li>
+            <li>진행 중인 다른 차량 앞에서 급제동하는 행위</li>
+            <li>고의적으로 앞지르기를 방해하는 행위</li>
+            <li>지속적으로 경음기를 울리거나 전조등을 번쩍이는 행위</li>
+            <li>상대 차량을 따라가며 위협하거나 폭언하는 행위</li>
+            <li>상대 차량의 진로를 고의로 막는 행위</li>
+        </ul>
+
+        <hr>
+
+        <h2>제4장 주차 및 정차</h2>
+        <h3>제32조 (정차 및 주차의 금지)</h3>
+        <p>다음 각 장소에서는 정차 또는 주차를 할 수 없다:</p>
+        
+        <h4>제1호 - 교차로</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $600,000 / 벌점 5점</span></strong></p>
+        <p>교차로의 가장자리나 도로의 모퉁이로부터 5m 이내인 곳</p>
+        
+        <h4>제2호 - 안전지대</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $500,000 / 벌점 5점</span></strong></p>
+        <p>안전지대의 사방으로부터 각각 10m 이내인 곳</p>
+        
+        <h4>제3호 - 건널목</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $700,000 / 벌점 10점</span></strong></p>
+        <p>건널목의 가장자리로부터 10m 이내인 곳</p>
+        
+        <h4>제4호 - 도로 중앙</h4>
+        <p><strong><span class="penalty">위반 시: 벌금 $800,000 / 벌점 10점</span></strong><br>
+        긴급차량은 예외</p>
+        <p>도로 중앙이나 차선을 침범한 주차 (긴급차량 제외)</p>
+        
+
+        <h3>제33조 (주차 금지)</h3>
+        <p><strong><span class="penalty">위반 시: 벌금 $400,000 / 벌점 5점</span></strong></p>
+        <p>주차금지 표지가 설치된 곳에 주차한 경우</p>
+
+        <!-- 이전 버전 제34조 (장애인 전용 주차구역) 항목은 제거됨 -->
+
+        <hr>
+
+        <h2>제5장 사고 및 조치</h2>
+        <h3>제54조 (사고발생 시 조치)</h3>
+        <p><strong><span class="penalty">위반 시: 벌금 $2,500,000 / 벌점 15점</span></strong></p>
+        <p>교통사고를 일으킨 경우:</p>
+        <ul>
+            <li>즉시 정차하여야 한다</li>
+            <li>사상자가 있는 경우 구호조치를 하여야 한다</li>
+            <li>경찰공무원에게 신고하여야 한다</li>
+            <li>사고현장을 보존하여야 한다</li>
+        </ul>
+        <p><strong><span class="penalty">도주 시: 벌금 $3,000,000 / 벌점 100점</span></strong></p>
+
+        <hr>
+
+        <h2>제6장 벌칙 및 집행</h2>
+        <h3>제156조 (벌칙)</h3>
+
+        <h4>제10호 - 사고 후 미조치</h4>
+        <p><span class="penalty">5년 이하의 징역이나 1천500만원 이하의 벌금 (게임 내 $2,500,000)</span></p>
+
+        <h4>제11호 - 도주</h4>
+        <p><span class="penalty">특정범죄 가중처벌 등에 관한 법률 적용 (게임 내 $3,000,000)</span></p>
+
+        <h3>제160조 (벌칙)</h3>
+        <p>다음 각 호의 어느 하나에 해당하는 사람은 <span class="penalty">30만원 이하의 벌금 (게임 내 $400,000~$800,000)</span></p>
+        <ul>
+            <li>신호·지시 위반</li>
+            <li>속도 위반</li>
+            <li>정차·주차 위반</li>
+            <li>기타 준수사항 위반</li>
+        </ul>
+
+        <hr>
+
+        <div class="note">
+            <div class="section-header">📝 처벌 집행 규정</div>
+            <h3>제1조 (범칙금 납부)</h3>
+            <ul>
+                <li>모든 벌금은 고지 후 즉시 납부</li>
+                <li>미납 시 추가 벌금 부과</li>
+            </ul>
+
+            <h3>제2조 (벌점 누적 처벌)</h3>
+            <p><strong>벌점 누적에 따른 추가 처벌</strong>:</p>
+            <ul>
+                <li><strong>40점 누적</strong>: 경고 (벌금 없음)</li>
+                <li><strong>80점 누적</strong>: <span class="penalty">추가 벌금 $500,000</span></li>
+                <li><strong>120점 누적</strong>: <span class="penalty">추가 벌금 $1,000,000</span></li>
+                <li><strong>200점 누적</strong>: <span class="penalty">추가 벌금 $2,000,000 + 운전 금지 1일</span></li>
+                <li><strong>300점 누적</strong>: <span class="penalty">추가 벌금 $3,000,000 + 운전 금지 3일</span></li>
+            </ul>
+            <p><strong>벌점 초기화</strong>:</p>
+            <ul>
+                <li>벌점은 30일 후 자동 초기화</li>
+                <li>운전 금지 기간 동안 위반 시 금지 기간 2배 연장</li>
+            </ul>
+
+            <h3>제3조 (재범 가중)</h3>
+            <ul>
+                <li>동일 위반 2회: <span class="penalty">벌금 1.5배 / 벌점 1.5배</span></li>
+                <li>동일 위반 3회 이상: <span class="penalty">벌금 2배 / 벌점 2배</span></li>
+            </ul>
+
+            <h3>제4조 (경찰의 권한)</h3>
+            <ul>
+                <li>교통 위반 단속</li>
+                <li>위반 차량 정지 명령</li>
+                <li>벌금 및 벌점 고지</li>
+            </ul>
+
+            <h3>제5조 (이의 제기)</h3>
+            <p>부당한 단속이라 판단될 경우 서버 관리자에게 이의 제기 가능</p>
+        </div>
+
+        <div class="note" style="border-left-color: #ffc107;">
+            <div class="section-header" style="border-left-color: #ffc107;">📌 법률 적용 원칙</div>
+            <ul>
+                <li>대한민국 도로교통법 제정 기준</li>
+                <li><strong>mph</strong> = miles per hour (마일/시간)</li>
+                <li>게임 내 화폐 단위: <strong>$ (달러)</strong></li>
+                <li>벌점은 30일 후 자동 초기화</li>
+                <li>현실 법령의 RP 적용을 위한 해석</li>
+            </ul>
+        </div>
+
+        <p class="info">
+            <strong>버전</strong>: 3.0 | <strong>최종 수정</strong>: 2025년 10월<br>
+            <strong>근거</strong>: 대한민국 도로교통법 (법률 제18941호)
+        </p>
+    </div>
+</body>
+</html>
