@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏛️ Greenville RP 서버 도로교통법</title>
+    <title>🏛️ GVKR 서버 도로교통법</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -155,7 +155,8 @@
             <li>25mph 초과: <span class="penalty">벌금 $400,000 / 벌점 15점</span></li>
             <li>40mph 초과: <span class="penalty">벌금 $800,000 / 벌점 30점</span></li>
             <li>60mph 초과: <span class="penalty">벌금 $1,500,000 / 벌점 60점</span></li>
-            <li>80mph 초과: <span class="penalty">벌금 $2,500,000 / 벌점 100점</span></li>
+            <li>70mph 초과: <span class="penalty">3일벤 / 벌금 1500만원</span></li>
+            <li>80mph 초과: <span class="penalty">서버 차단</span></li>
         </ul>
 
         <h4>제2항 - 차간거리 미확보</h4>
